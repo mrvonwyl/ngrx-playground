@@ -1,0 +1,8 @@
+<h2>Todos</h2>
+
+@for (todo of todos(); track todo.id) {
+<div>
+  {{ todo.id }}<br />
+  {{ todo.description }}
+</div>
+}
