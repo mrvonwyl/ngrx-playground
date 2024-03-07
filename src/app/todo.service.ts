@@ -14,6 +14,8 @@ export class TodoService {
       },
     ];
 
+    // return throwError(() => new Error('API Error'));
+
     return of(todos).pipe(delay(1000));
   }
 }

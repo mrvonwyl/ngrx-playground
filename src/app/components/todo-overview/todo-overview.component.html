@@ -1,5 +1,7 @@
 <h2>Todos</h2>
 
+<button (click)="loadTodos()">Load Todos</button>
+
 @for (todo of todos(); track todo.id) {
 <div>
   {{ todo.id }}<br />
