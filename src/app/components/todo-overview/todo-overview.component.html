@@ -1,5 +1,7 @@
 <h2>Todos</h2>
 
+<button routerLink="lazy1">Lazy 1</button>
+<button routerLink="lazy2">Lazy 2</button>
 <button (click)="loadTodos()">Load Todos</button>
 
 @for (todo of todos(); track todo.id) {
